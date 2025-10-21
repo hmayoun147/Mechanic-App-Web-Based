@@ -1,0 +1,25 @@
+﻿<script src="/CustomScripts/NewRequestView.js"></script>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-5">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header"><h3 class="text-center font-weight-light my-4" style="color:green">Unschedule Maintenance <br /> (Auto Cutter Morgan)</h3></div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-floating mb-3" style="text-align:center;">
+                            <div id="timer" style="font-size:55px; color:red; font-weight:600">0:00</div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="inputPassword" type="password" placeholder="Pass Code" />
+                            <label for="inputPassword">Pass Code</label>
+                        </div>
+                        <div style="text-align:center">
+                            <button type="button" class="btn btn-success" id="starttime" onclick="StartTimer()">Start DownTime</button>
+                            <button type="button" class="btn btn-danger" id="stoptime" onclick="EndTimer()" style="display:none">Stop DownTime</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
